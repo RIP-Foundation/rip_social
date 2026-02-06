@@ -1,0 +1,26 @@
+{
+  "name": "rip-social",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*", "packages/config/*"],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "test": "turbo test",
+    "test:watch": "turbo test:watch",
+    "lint": "turbo lint",
+    "typecheck": "turbo typecheck",
+    "clean": "turbo clean && rm -rf node_modules",
+    "db:generate": "turbo db:generate",
+    "db:migrate": "turbo db:migrate",
+    "db:push": "turbo db:push"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.14",
+    "turbo": "^2.3.3",
+    "typescript": "^5.7.2"
+  },
+  "packageManager": "bun@1.1.42",
+  "engines": {
+    "node": ">=20"
+  }
+}

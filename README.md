@@ -324,10 +324,12 @@ This project is **100% Open Source** and welcomes contributions!
 
 We believe in open, transparent governance.
 
-- **[Code of Conduct](CODE_OF_CONDUCT.md)** - Our standards for participation
-- **[Contributing Guide](CONTRIBUTING.md)** - How to get started
-- **[Security Policy](SECURITY.md)** - How to report vulnerabilities
-- **[Governance](GOVERNANCE.md)** - How decisions are made
+- **[Code of Conduct](docs/CODE_OF_CONDUCT.md)** - Our standards for participation
+- **[Contributing Guide](docs/CONTRIBUTING.md)** - How to get started
+- **[Security Policy](docs/SECURITY.md)** - How to report vulnerabilities
+- **[Governance](docs/GOVERNANCE.md)** - How decisions are made
+- **[Architecture](docs/ARCHITECTURE.md)** - System architecture overview
+- **[DevOps Guide](docs/DEVOPS.md)** - Git strategy, CI/CD, and deployment
 
 ## License
 

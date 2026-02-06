@@ -1,0 +1,9 @@
+{
+  "name": "@ripsocial/tailwind-config",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "files": ["*.ts"]
+}
