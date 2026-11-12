@@ -1,0 +1,48 @@
+name: "💡 Feature Request"
+description: "Suggest a civic feature, AI moderation improvement, or integration for RIP Social"
+title: "[FEAT]: "
+labels: ["enhancement", "discussion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for proposing a new feature for RIP Social!
+        Please describe the civic problem this solves and how it fits our core principles.
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Feature Category
+      options:
+        - "Civic Issue Ingestion & Geo-tagging"
+        - "AI Moderation & Content Safety"
+        - "Legal & Petition Generation (CPGRAMS/eSign/RTI)"
+        - "Identity & DigiLocker Verification"
+        - "Developer Experience & Tooling"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: Is your feature request related to a specific civic or user problem?
+      placeholder: "Citizens in rural wards struggle to identify their ward number when filing road repair issues..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution / User Experience
+      description: Describe what you want to happen.
+      placeholder: "Auto-detect municipal ward using GPS coordinates and pre-fill the routing department..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any alternative solutions or workarounds you've thought of?
+      placeholder: "Manual ward dropdown selection..."

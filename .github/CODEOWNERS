@@ -1,0 +1,18 @@
+# Global fallback: Organization owners review everything by default
+*                   @RIP-Foundation/owners
+
+# Backend service & API routes
+apps/api/**         @akshayaparida
+
+# Frontend Next.js application & UI
+apps/web/**         @akshayaparida
+
+# Database schemas, migrations & seeds
+packages/db/**      @akshayaparida
+
+# Monorepo configuration, tooling & CI/CD
+packages/config/**  @akshayaparida
+.github/**          @akshayaparida
+turbo.json          @akshayaparida
+bun.lock            @akshayaparida
+package.json        @akshayaparida

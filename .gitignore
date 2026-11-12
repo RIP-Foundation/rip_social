@@ -83,3 +83,6 @@ models/
 *.njsproj
 *.sln
 *.sw?
+
+# Turborepo
+.turbo
